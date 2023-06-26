@@ -1,0 +1,14 @@
+.container{
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px 25px;
+    /* -webkit-box-shadow: 13px 29px 83px 12px rgba(179,166,179,0.45);
+-moz-box-shadow: 13px 29px 83px 12px rgba(179,166,179,0.45);
+box-shadow: 13px 29px 83px 12px rgba(179,166,179,0.45); */
+}
+img{
+    margin-bottom: 10px;
+}
+.btn{
+    margin-right: 10px;
+}

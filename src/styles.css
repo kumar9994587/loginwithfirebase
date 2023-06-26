@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+background-color: rgb(207, 205, 208); }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.form-container{
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(214, 212, 217);
+    padding: 48px;
+    border-radius: 16px;
+    -webkit-box-shadow: -2px 21px 54px 1px rgba(158,147,158,0.45);
+-moz-box-shadow: -2px 21px 54px 1px rgba(158,147,158,0.45);
+box-shadow: -2px 21px 54px 1px rgba(158,147,158,0.45);
+}
+.form-container mat-form-field{
+    width: 100%;
+    display: block;
+    flex-direction: column ;
+    margin-bottom: 15px;
+}
+
+.margin-top{
+    margin-top: 16px;
+}
+mat-error{
+    color: red;
+} 

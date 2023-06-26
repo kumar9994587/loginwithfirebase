@@ -1,0 +1,11 @@
+span{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+span a{
+    font-weight: bold;
+    color: blue;
+}
